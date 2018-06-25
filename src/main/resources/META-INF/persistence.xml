@@ -4,7 +4,8 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
-	<persistence-unit name="magasin_brico" transaction-type="RESOURCE_LOCAL">
+	<persistence-unit name="magasin_brico"
+		transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mariadb://localhost:3306/magasin_brico" />
